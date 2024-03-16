@@ -25,7 +25,7 @@ let move = lerp(200,0,val);
 gsap.to(img.current,{
   x:move+"px",
   ease:Circ,
-  duration: 1.5
+  duration: 1.2
 })
   
 }
